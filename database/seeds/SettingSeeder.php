@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Spatie\Permission\Models\Setting;
+use App\Models\Setting;
 
 class SettingSeeder extends Seeder
 {

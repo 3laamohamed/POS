@@ -19,7 +19,7 @@ class CreateEmployeeTransactionsTable extends Migration
             $table->integer('op');
             $table->string('op_name', 50);
             $table->double('val');
-            $table->text('note')-null();
+            $table->text('note')->nullable();
             $table->string('date', 50);
             $table->timestamps();
         });
